@@ -1,4 +1,4 @@
-// src/sections/AboutHero.jsx
+
 import { useState, useEffect } from "react";
 
 const AboutHero = () => {
@@ -75,7 +75,7 @@ const AboutHero = () => {
           <div className="group relative w-full max-w-sm overflow-hidden rounded-3xl border border-[#2E2E2E] bg-[#171717]/40 p-3 backdrop-blur-md transition-all duration-500 hover:shadow-[0_0_60px_-15px_#F64900]">
             <div className="aspect-[4/5] w-full overflow-hidden rounded-2xl">
               <img
-                src="/"
+                src="/Potrait1.jpeg"
                 alt="Portrait"
                 className="h-full w-full object-cover grayscale-[10%] transition-all duration-500 group-hover:grayscale-0"
               />
