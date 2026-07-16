@@ -22,7 +22,7 @@ export const certificates = [
   },
    {
     id: 4,
-    title: "Indaba",
+    title: "Certification of Partipation INDABA X",
     issuer: "Google",
     date: "2026",
     credentialUrl: "#",

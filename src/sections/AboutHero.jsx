@@ -45,9 +45,9 @@ const AboutHero = () => {
       </div>
 
       <div className="relative z-10 mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-16 lg:grid-cols-2">
-        {/* Left Column: Copy & Local Time */}
+        
         <div className="flex flex-col gap-6">
-          {/* Section Sub-heading */}
+          
           <span className="font-mono text-xs uppercase tracking-widest text-[#71717A]">
             Explore more about Takudzwa
           </span>
@@ -62,7 +62,7 @@ const AboutHero = () => {
             in detail, honest in function, and rooted in real context.
           </p>
 
-          {/* Clean, borderless local time text */}
+          
           <div className="flex items-center gap-2.5 font-mono text-xs text-[#71717A]">
             <span>Harare, Zimbabwe</span>
             <span>/</span>
@@ -70,12 +70,12 @@ const AboutHero = () => {
           </div>
         </div>
 
-        {/* Right Column: Portrait Card */}
+        
         <div className="flex justify-center lg:justify-end">
           <div className="group relative w-full max-w-sm overflow-hidden rounded-3xl border border-[#2E2E2E] bg-[#171717]/40 p-3 backdrop-blur-md transition-all duration-500 hover:shadow-[0_0_60px_-15px_#F64900]">
             <div className="aspect-[4/5] w-full overflow-hidden rounded-2xl">
               <img
-                src="/your-portrait.jpg"
+                src="/portrait.jpg"
                 alt="Portrait"
                 className="h-full w-full object-cover grayscale-[10%] transition-all duration-500 group-hover:grayscale-0"
               />

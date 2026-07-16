@@ -7,7 +7,7 @@ const principles = [
     id: 1,
     icon: HiOutlineLightBulb,
     title: "Problem First",
-    description: "I design around real user problems, not trends — every decision has a reason.",
+    description: "I design around real user problems, not trends every decision has a reason.",
   },
   {
     id: 2,
