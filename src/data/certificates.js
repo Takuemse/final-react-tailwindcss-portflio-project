@@ -10,7 +10,7 @@ export const certificates = [
     id: 2,
     title: "Product Design",
     issuer: "Uxcel",
-    date: "2025",
+    date: "2026",
     credentialUrl: "#",
   },
   {
