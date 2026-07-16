@@ -1,12 +1,13 @@
 import { HiArrowUpRight } from "react-icons/hi2";
-import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   const { title, tagline, tags, image, caseStudyUrl } = project;
 
   return (
-    <Link
-      to={caseStudyUrl}
+    
+      <a href={caseStudyUrl}
+      target="_blank"
+      rel="noopener noreferrer"
       className="group relative flex flex-col overflow-hidden rounded-2xl border border-[#2E2E2E] bg-[#171717] transition-all duration-300 hover:border-[#F64900]/50 hover:-translate-y-1"
     >
       <div className="relative aspect-video w-full overflow-hidden bg-[#1E1E1E]">
@@ -41,7 +42,7 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
       </div>
-    </Link>
+    </a>
   );
 };
 

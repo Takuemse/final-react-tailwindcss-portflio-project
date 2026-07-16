@@ -12,14 +12,14 @@ const connectLinks = [
     icon: FaGithub,
     label: "GitHub",
     handle: "@TakueMse",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/Takuemse",
   },
   {
     id: 2,
     icon: FaLinkedin,
     label: "LinkedIn",
     handle: "Takudzwa Musemwa",
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/takudzwa-william-musemwa-559000240/",
   },
 ];
 

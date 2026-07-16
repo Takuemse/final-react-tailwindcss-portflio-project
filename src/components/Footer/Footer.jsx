@@ -4,10 +4,10 @@ import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { HiEnvelope } from "react-icons/hi2";
 
 const socialLinks = [
-  { id: 1, icon: FaGithub, href: "https://github.com/yourusername", label: "GitHub" },
-  { id: 2, icon: FaLinkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
+  { id: 1, icon: FaGithub, href: "https://github.com/Takuemse", label: "GitHub" },
+  { id: 2, icon: FaLinkedin, href: "https://www.linkedin.com/in/takudzwa-william-musemwa-559000240/", label: "LinkedIn" },
   { id: 3, icon: FaXTwitter, href: "https://x.com/yourusername", label: "X" },
-  { id: 4, icon: HiEnvelope, href: "mailto:you@example.com", label: "Email" },
+  { id: 4, icon: HiEnvelope, href: "mailto:takudzwamse@gmail.com", label: "Email" },
 ];
 
 const getGreeting = () => {
